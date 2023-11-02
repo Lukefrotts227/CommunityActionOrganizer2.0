@@ -1,6 +1,10 @@
 # CommunityActionOrganizer2.0
 I am remaking my Community Organizer hackathon project. I will be using what I know now. Will be deploying. 
 
+# Getting started 
+- Activate the venv called community
+
+
 # Before
 - I had aimed to build on my old project which used a fastapi, react and mongo stack 
 - I am now switching up the stack so I will simply redo the project and reference my old code
@@ -9,5 +13,4 @@ I am remaking my Community Organizer hackathon project. I will be using what I k
 - I will be using Django 
 - I will be using tailwindcss
 - Will still use mongoDB as it offers flexability
-
-
+- The basics of the stack will be Django, HTMX and Tailwind
