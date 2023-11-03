@@ -1,2 +1,3 @@
 /community
 .env
+db.sqlite3
