@@ -46,8 +46,6 @@ INSTALLED_APPS = [
     'organizer',
     'compressor',
     'django_htmx',
-    'django.contrib.auth',
-    'django.contrib.contenttypes'
 ]
 
 MIDDLEWARE = [
