@@ -11,3 +11,6 @@ def index(request):
     else:
         # This is a full page request
         return render(request, 'index.html')
+
+def api_test(request): # This is
+    return HttpResponse('<p>This is an htmx response!</p>')

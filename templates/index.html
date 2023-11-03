@@ -3,7 +3,8 @@
 
 {% block content %}
   <h1 class="mt-5 text-center text-3xl font-bold text-slate-800">Hello World</h1>
-  <button hx-get="/" hx-target="#content" hx-trigger="click">
+  <button hx-get="/api/test" hx-target="#testing" hx-trigger="click">
     Click me!
   </button>
+  <stuff id="testing"></stuff>
 {% endblock content %}
