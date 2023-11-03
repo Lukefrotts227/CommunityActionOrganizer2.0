@@ -5,4 +5,4 @@ from .models import baseUser
 class baseUserCreationForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = baseUser
-        fields = UserCreationForm.Meta.fields + ('bio', 'birth_date',)
+        
