@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Django + HTMX + Tailwind CSS</title>
+    <title>Community Action Organizer</title>
 
     {% compress css %}
       <link rel="stylesheet" href="{% static 'src/output.css' %}">
     {% endcompress %}
 
   </head>
-  <body class="bg-blue-100">
+  <body class="min-h-screen bg-gradient-to-tl from-purple-100 to-pink-100">
     {% block content %}
     {% endblock content %}
   </body>

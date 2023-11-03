@@ -1,0 +1,2 @@
+run this to get tailwind working
+tailwindcss -i ./static/src/main.css -o ./static/src/output.css --minify

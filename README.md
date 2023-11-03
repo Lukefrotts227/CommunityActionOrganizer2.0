@@ -8,5 +8,5 @@ I am remaking my Community Organizer hackathon project. I will be using what I k
 # The stack
 - I will be using Django 
 - I will be using tailwindcss
-- Will still use mongoDB as it offers flexability
+- Switching over to SQL for now
 - The basics of the stack will be Django, HTMX and Tailwind
