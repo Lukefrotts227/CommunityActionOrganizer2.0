@@ -14,3 +14,6 @@ def index(request):
 
 def api_test(request): # This is
     return HttpResponse('<p>This is an htmx response!</p>')
+
+def route_test(request):
+    return render(request, 'route.html')
