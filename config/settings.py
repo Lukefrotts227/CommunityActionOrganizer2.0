@@ -139,3 +139,5 @@ LOGIN_REDIRECT_URL = '/'
 
 # Redirect to home URL after logout (Default redirects to /accounts/login/)
 LOGOUT_REDIRECT_URL = '/'
+
+AUTH_USER_MODEL = 'organizer.BaseUser'
