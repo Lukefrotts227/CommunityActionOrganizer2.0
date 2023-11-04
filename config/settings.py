@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'organizer',
     'compressor',
     'django_htmx',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
