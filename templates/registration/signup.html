@@ -2,9 +2,9 @@
 
 {% block content %}
   <h2>Register</h2>
-   <form className="text-center p-3" method="post">
+   <form class="text-center p-3" method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit">Register</button>
+    <button class="rounded-md hover:bg-slate-400" type="submit">Register</button>
   </form>
 {% endblock %}
