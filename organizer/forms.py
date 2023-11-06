@@ -6,6 +6,8 @@ class MyUserCreationForm(UserCreationForm):
     class Meta(UserCreationForm):
         model = MyUser
         fields = ('email', 'first_name', 'last_name', 'town')
+
+
 class MyUserChangeForm(UserChangeForm): 
     class Meta:
         model = MyUser

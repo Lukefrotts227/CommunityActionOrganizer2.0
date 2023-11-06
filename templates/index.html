@@ -6,5 +6,17 @@
         <header>
             <h1 class="mt-12 text-center text-4xl font-serif font-bold text-black">Welcome to The Community Action Organizer</h1>
         </header>
+        <section class = "flex justify-center items-center gap-14 mt-12">
+            <a href="{% url 'login' %}">
+                <button class = "bg-slate-100 text-3xl">
+                    <p class="p-3">Log In</p>
+                </button>
+            </a>
+            <a href="{% url 'signup' %}">
+                <button class="bg-slate-100 text-3xl">
+                    <p class="p-3">Sign Up</p>
+                </button>
+            </a>
+        </section>
     </main>
 {% endblock content %}
