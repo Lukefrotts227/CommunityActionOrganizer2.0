@@ -2,3 +2,4 @@ Django
 django-compressor
 pytailwindcss
 django_htmx
+sendgrid
