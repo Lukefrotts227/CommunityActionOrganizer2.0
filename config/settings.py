@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'organizer',
     'compressor',
     'django_htmx',
-    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +141,14 @@ LOGIN_REDIRECT_URL = '/'
 # Redirect to home URL after logout (Default redirects to /accounts/login/)
 LOGOUT_REDIRECT_URL = '/'
 
+import os 
+from dotenv import load_dotenv
+
+load_dotenv()
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "youremail@gmail.com"
+EMAIL_HOST_PASSWORD=''
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True

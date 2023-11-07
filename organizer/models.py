@@ -30,6 +30,7 @@ class MyUser(AbstractBaseUser, PermissionsMixin):
     town = models.CharField(max_length=100)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
+    email_is_verified = models.BooleanField(default=False)
     objects = MyUserManager()
     
     USERNAME_FIELD = 'email'
