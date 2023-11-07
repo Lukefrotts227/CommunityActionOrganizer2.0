@@ -6,4 +6,4 @@ def send_verification_email(user, request):
     user_email = user.email
     subject = 'Verify your account'
     message = f"Please click the following link to verify your account: {request.build_absolute_uri('/verify-email/')}?token={token}"
-    send_mail(subject, message, 'from@example.com', [user_email], fail_silently=False)
+    send_mail(subject, message, 'community.action.organizer.support@gmail.com', [user_email], fail_silently=False)
